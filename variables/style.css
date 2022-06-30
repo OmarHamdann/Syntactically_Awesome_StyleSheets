@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+}
+
+.blog-post, h2 {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
