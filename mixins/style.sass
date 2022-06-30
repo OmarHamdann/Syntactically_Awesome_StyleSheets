@@ -20,11 +20,11 @@
   @else if $val == medium
     border: 3px solid black
 
-    @else if $val == heavy
-      border: 6px solid black
+  @else if $val == heavy
+    border: 6px solid black
 
-    @else
-      border: none
+  @else
+    border: none
 
   #box
     width: 150px
@@ -41,3 +41,10 @@
 
   @each $color in blue, black, red
     .#{$color}-bg background-color: $color
+
+  //while loop
+
+$x: 1
+@while $x <= 5
+  .text2-#{$x}  font-size: 15 * $x
+  $x: $x + 1
